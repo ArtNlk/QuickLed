@@ -1,0 +1,21 @@
+#ifndef TIMEMANAGER_H
+#define TIMEMANAGER_H
+
+#include <QObject>
+#include <serialmanager.h>
+
+class TimeManager
+{
+    Q_OBJECT
+public:
+    TimeManager();
+    
+private:
+    QColor tempToRgb(int temperature);
+    char tempToRed(int temperature);
+    char tempToGreen(int temperature);
+    int tempToBlue(int temperature);
+    int maxTemp = 
+};
+
+#endif // TIMEMANAGER_H
